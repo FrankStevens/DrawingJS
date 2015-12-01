@@ -1,3 +1,13 @@
+var c = document.createElement("canvas");
+c.setAttribute("id", "myCanvas");
+c.setAttribute("width", 400);
+c.setAttribute("height", 400);
+
+function setCanvas(width, height){
+    c.setAttribute("width", width);
+    c.setAttribute("height", width);
+}
+
 var canvas = document.getElementById("myCanvas");
 var ctx = canvas.getContext("2d");
 var width = canvas.width;
