@@ -9,6 +9,7 @@ Currently includes:
 <li>Images</li>
 <li>Lines</li>
 <li>Canvas width and height variables</li>
+<li>The Canvas itself</li>
 </ul>
 Coming soon:
 <ul>
